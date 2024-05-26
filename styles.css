@@ -1,0 +1,117 @@
+header{
+    background-color: lightgray;
+}
+
+body{
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+}
+
+section{
+    margin: 0 20px;
+}
+
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 5vmax;
+}
+
+nav h1{
+    margin-left: 20px;
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 130px);
+    background-color: lightgray;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+
+p{
+    font-size: .8rem;
+}
+
+h1, h3, p{
+    margin: 0;
+}
+
+li{
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#cards{
+    width: 100%;
+    height: 100%x;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+#card{
+    width: 300px;
+    height: 300px;
+    margin:10px 15px;
+}
+
+#logindiv{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin: 10px;
+}
+
+#sitios{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#sitios_tarjetas{
+    width: 200px;
+    height: 400px;
+    margin: 0 15px;
+}
+
+main div div img{
+    width: 100%;
+    height: 150px;
+}
+
+#cards div img{
+    width: 100%;
+    height: 150px;
+}
+
